@@ -13,8 +13,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "NexaFlow | AI Powered Workflow Automation",
-  description: "Automate your business workflows with AI-powered integrations, no-code builder, and real-time analytics dashboard.",
+  title: "NexaFlow | Automatización de Flujos de Trabajo con IA",
+  description: "Automatiza los flujos de trabajo de tu negocio con integraciones impulsadas por IA, constructor sin código y panel de análisis en tiempo real.",
 };
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
+    <html lang="es" className={`${inter.variable} ${spaceGrotesk.variable}`}>
       <body className="antialiased">{children}</body>
     </html>
   );

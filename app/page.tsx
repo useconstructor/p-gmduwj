@@ -22,194 +22,194 @@ import {
 } from "lucide-react";
 
 const navLinks = [
-  { label: "Features", href: "#features" },
-  { label: "Solutions", href: "#services" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Características", href: "#features" },
+  { label: "Soluciones", href: "#services" },
+  { label: "Precios", href: "#pricing" },
+  { label: "Preguntas Frecuentes", href: "#faq" },
 ];
 
 const stats = [
-  { value: "10,000+", label: "Active Workflows" },
-  { value: "200+", label: "Integrations" },
-  { value: "99.9%", label: "Uptime SLA" },
-  { value: "50M+", label: "Tasks Automated" },
+  { value: "10,000+", label: "Flujos de Trabajo Activos" },
+  { value: "200+", label: "Integraciones" },
+  { value: "99.9%", label: "SLA de Disponibilidad" },
+  { value: "50M+", label: "Tareas Automatizadas" },
 ];
 
 const features = [
   {
     icon: Zap,
-    title: "AI Powered Automation",
-    description: "Our intelligent engine learns your patterns and suggests optimizations to streamline your workflows automatically.",
+    title: "Automatización con IA",
+    description: "Nuestro motor inteligente aprende tus patrones y sugiere optimizaciones para agilizar tus flujos de trabajo automáticamente.",
   },
   {
     icon: Layers,
-    title: "No Code Builder",
-    description: "Drag and drop interface makes it easy for anyone to create complex workflows without writing a single line of code.",
+    title: "Constructor Sin Código",
+    description: "La interfaz de arrastrar y soltar facilita que cualquiera cree flujos de trabajo complejos sin escribir una sola línea de código.",
   },
   {
     icon: BarChart3,
-    title: "Real Time Analytics",
-    description: "Monitor performance metrics, track bottlenecks, and gain actionable insights with our live dashboard.",
+    title: "Análisis en Tiempo Real",
+    description: "Monitorea métricas de rendimiento, rastrea cuellos de botella y obtén información procesable con nuestro panel en vivo.",
   },
   {
     icon: Plug,
-    title: "200+ Integrations",
-    description: "Connect with your favorite tools including Salesforce, Slack, HubSpot, Jira, and hundreds more out of the box.",
+    title: "Más de 200 Integraciones",
+    description: "Conéctate con tus herramientas favoritas incluyendo Salesforce, Slack, HubSpot, Jira y cientos más listas para usar.",
   },
   {
     icon: Users,
-    title: "Team Collaboration",
-    description: "Work together seamlessly with shared workspaces, comments, version history, and real time editing.",
+    title: "Colaboración en Equipo",
+    description: "Trabaja en conjunto sin problemas con espacios de trabajo compartidos, comentarios, historial de versiones y edición en tiempo real.",
   },
   {
     icon: Webhook,
-    title: "Custom Webhooks",
-    description: "Build powerful integrations with custom API webhooks that trigger workflows from any external system.",
+    title: "Webhooks Personalizados",
+    description: "Construye integraciones potentes con webhooks API personalizados que activan flujos de trabajo desde cualquier sistema externo.",
   },
   {
     icon: Shield,
-    title: "Role Based Access",
-    description: "Keep your workflows secure with granular permissions and role based access control for your entire team.",
+    title: "Acceso Basado en Roles",
+    description: "Mantén tus flujos de trabajo seguros con permisos granulares y control de acceso basado en roles para todo tu equipo.",
   },
   {
     icon: FileStack,
-    title: "Template Library",
-    description: "Get started fast with hundreds of pre-built workflow templates designed for common business processes.",
+    title: "Biblioteca de Plantillas",
+    description: "Comienza rápidamente con cientos de plantillas de flujos de trabajo prediseñadas para procesos empresariales comunes.",
   },
 ];
 
 const services = [
   {
-    title: "Sales Automation",
-    description: "Automate lead scoring, follow ups, and pipeline management to close deals faster.",
+    title: "Automatización de Ventas",
+    description: "Automatiza la calificación de leads, seguimientos y gestión del pipeline para cerrar negocios más rápido.",
     color: "from-indigo-500/20 to-purple-500/20",
   },
   {
-    title: "Marketing Operations",
-    description: "Orchestrate campaigns, sync data across platforms, and personalize customer journeys at scale.",
+    title: "Operaciones de Marketing",
+    description: "Orquesta campañas, sincroniza datos entre plataformas y personaliza los recorridos del cliente a escala.",
     color: "from-cyan-500/20 to-blue-500/20",
   },
   {
-    title: "Customer Success",
-    description: "Automate onboarding sequences, health scoring, and proactive outreach to reduce churn.",
+    title: "Éxito del Cliente",
+    description: "Automatiza secuencias de incorporación, puntuación de salud y alcance proactivo para reducir la deserción.",
     color: "from-emerald-500/20 to-teal-500/20",
   },
   {
-    title: "IT Operations",
-    description: "Streamline provisioning, incident management, and compliance workflows across your infrastructure.",
+    title: "Operaciones de TI",
+    description: "Optimiza el aprovisionamiento, gestión de incidentes y flujos de trabajo de cumplimiento en toda tu infraestructura.",
     color: "from-orange-500/20 to-amber-500/20",
   },
 ];
 
 const products = [
   {
-    title: "Workflow Studio",
-    description: "Visual canvas for building and testing automation flows with real time preview and debugging tools.",
+    title: "Estudio de Flujos de Trabajo",
+    description: "Lienzo visual para construir y probar flujos de automatización con vista previa en tiempo real y herramientas de depuración.",
   },
   {
-    title: "Integration Hub",
-    description: "Centralized management for all your connected apps with authentication, mapping, and monitoring.",
+    title: "Centro de Integraciones",
+    description: "Gestión centralizada para todas tus aplicaciones conectadas con autenticación, mapeo y monitoreo.",
   },
   {
-    title: "Analytics Engine",
-    description: "Deep insights into workflow performance with custom reports, alerts, and optimization suggestions.",
+    title: "Motor de Análisis",
+    description: "Información profunda sobre el rendimiento de los flujos de trabajo con informes personalizados, alertas y sugerencias de optimización.",
   },
 ];
 
 const pricingPlans = [
   {
-    name: "Starter",
-    description: "For small teams getting started",
-    price: "Free",
+    name: "Inicial",
+    description: "Para equipos pequeños que están comenzando",
+    price: "Gratis",
     period: "",
     features: [
-      "Up to 500 tasks per month",
-      "5 active workflows",
-      "10 integrations",
-      "Community support",
-      "Basic analytics",
+      "Hasta 500 tareas por mes",
+      "5 flujos de trabajo activos",
+      "10 integraciones",
+      "Soporte comunitario",
+      "Análisis básico",
     ],
     highlighted: false,
-    cta: "Get Started",
+    cta: "Comenzar",
   },
   {
-    name: "Professional",
-    description: "For growing businesses",
+    name: "Profesional",
+    description: "Para negocios en crecimiento",
     price: "$49",
-    period: "/month",
+    period: "/mes",
     features: [
-      "Up to 10,000 tasks per month",
-      "Unlimited workflows",
-      "50+ integrations",
-      "Priority email support",
-      "Advanced analytics",
-      "Team collaboration",
-      "Custom webhooks",
+      "Hasta 10,000 tareas por mes",
+      "Flujos de trabajo ilimitados",
+      "Más de 50 integraciones",
+      "Soporte prioritario por email",
+      "Análisis avanzado",
+      "Colaboración en equipo",
+      "Webhooks personalizados",
     ],
     highlighted: true,
-    cta: "Start Free Trial",
+    cta: "Iniciar Prueba Gratis",
   },
   {
-    name: "Enterprise",
-    description: "For large organizations",
-    price: "Custom",
+    name: "Empresarial",
+    description: "Para grandes organizaciones",
+    price: "Personalizado",
     period: "",
     features: [
-      "Unlimited tasks",
-      "Unlimited workflows",
-      "200+ integrations",
-      "24/7 dedicated support",
-      "Custom analytics",
-      "SSO and SAML",
-      "SLA guarantee",
-      "On premise option",
+      "Tareas ilimitadas",
+      "Flujos de trabajo ilimitados",
+      "Más de 200 integraciones",
+      "Soporte dedicado 24/7",
+      "Análisis personalizado",
+      "SSO y SAML",
+      "Garantía de SLA",
+      "Opción local",
     ],
     highlighted: false,
-    cta: "Contact Sales",
+    cta: "Contactar Ventas",
   },
 ];
 
 const testimonials = [
   {
-    quote: "NexaFlow transformed how we handle customer onboarding. What used to take hours now happens automatically in minutes.",
-    name: "Operations Director",
-    company: "Growth Stage Startup",
-    initials: "OD",
+    quote: "NexaFlow transformó la forma en que manejamos la incorporación de clientes. Lo que antes tomaba horas ahora sucede automáticamente en minutos.",
+    name: "Director de Operaciones",
+    company: "Startup en Crecimiento",
+    initials: "DO",
   },
   {
-    quote: "The no-code builder is incredibly intuitive. Our marketing team created complex workflows without any engineering support.",
-    name: "Marketing Lead",
-    company: "Digital Agency",
-    initials: "ML",
+    quote: "El constructor sin código es increíblemente intuitivo. Nuestro equipo de marketing creó flujos de trabajo complejos sin ningún soporte de ingeniería.",
+    name: "Líder de Marketing",
+    company: "Agencia Digital",
+    initials: "LM",
   },
   {
-    quote: "We reduced manual data entry by 90% and eliminated errors completely. The ROI was clear within the first month.",
-    name: "VP of Sales",
-    company: "Enterprise SaaS",
-    initials: "VS",
+    quote: "Redujimos la entrada manual de datos en un 90% y eliminamos los errores por completo. El ROI fue claro dentro del primer mes.",
+    name: "VP de Ventas",
+    company: "SaaS Empresarial",
+    initials: "VV",
   },
 ];
 
 const faqs = [
   {
-    question: "How quickly can I get started with NexaFlow?",
-    answer: "You can sign up and create your first workflow in under 5 minutes. Our intuitive drag and drop builder requires no technical knowledge, and we offer hundreds of templates to help you get started immediately.",
+    question: "¿Qué tan rápido puedo comenzar con NexaFlow?",
+    answer: "Puedes registrarte y crear tu primer flujo de trabajo en menos de 5 minutos. Nuestro constructor intuitivo de arrastrar y soltar no requiere conocimientos técnicos, y ofrecemos cientos de plantillas para ayudarte a comenzar de inmediato.",
   },
   {
-    question: "What integrations does NexaFlow support?",
-    answer: "NexaFlow connects with over 200 popular business tools including Salesforce, HubSpot, Slack, Microsoft 365, Google Workspace, Jira, Zendesk, and many more. We also support custom webhooks and REST APIs for connecting to any system.",
+    question: "¿Qué integraciones soporta NexaFlow?",
+    answer: "NexaFlow se conecta con más de 200 herramientas empresariales populares incluyendo Salesforce, HubSpot, Slack, Microsoft 365, Google Workspace, Jira, Zendesk y muchas más. También soportamos webhooks personalizados y APIs REST para conectar con cualquier sistema.",
   },
   {
-    question: "Is my data secure with NexaFlow?",
-    answer: "Absolutely. We use enterprise grade encryption for all data in transit and at rest. Our platform is SOC 2 Type II certified, GDPR compliant, and we offer role based access controls to ensure only authorized team members can access sensitive workflows.",
+    question: "¿Mis datos están seguros con NexaFlow?",
+    answer: "Absolutamente. Utilizamos cifrado de nivel empresarial para todos los datos en tránsito y en reposo. Nuestra plataforma cuenta con certificación SOC 2 Tipo II, cumple con GDPR, y ofrecemos controles de acceso basados en roles para asegurar que solo los miembros autorizados del equipo puedan acceder a flujos de trabajo sensibles.",
   },
   {
-    question: "Can I try NexaFlow before committing?",
-    answer: "Yes! Our Starter plan is completely free with up to 500 tasks per month. For Professional features, we offer a 14 day free trial with full access to all capabilities. No credit card required to get started.",
+    question: "¿Puedo probar NexaFlow antes de comprometerme?",
+    answer: "¡Sí! Nuestro plan Inicial es completamente gratis con hasta 500 tareas por mes. Para las características Profesionales, ofrecemos una prueba gratuita de 14 días con acceso completo a todas las capacidades. No se requiere tarjeta de crédito para comenzar.",
   },
   {
-    question: "What kind of support do you offer?",
-    answer: "All plans include access to our comprehensive documentation and community forum. Professional plans receive priority email support with 24 hour response times. Enterprise customers get dedicated account managers and 24/7 phone support.",
+    question: "¿Qué tipo de soporte ofrecen?",
+    answer: "Todos los planes incluyen acceso a nuestra documentación completa y foro comunitario. Los planes Profesionales reciben soporte prioritario por email con tiempos de respuesta de 24 horas. Los clientes Empresariales obtienen gerentes de cuenta dedicados y soporte telefónico 24/7.",
   },
 ];
 
@@ -253,14 +253,14 @@ export default function Home() {
                 className="px-4 py-2 text-sm font-medium rounded-lg transition-all hover:bg-white/10"
                 style={{ color: "#F4F4F5" }}
               >
-                Sign In
+                Iniciar Sesión
               </a>
               <a
                 href="#pricing"
                 className="px-4 py-2 text-sm font-medium rounded-lg transition-all"
                 style={{ backgroundColor: "#6366F1", color: "#F4F4F5" }}
               >
-                Get Started
+                Comenzar
               </a>
             </div>
 
@@ -268,7 +268,7 @@ export default function Home() {
             <button
               className="md:hidden p-2 rounded-lg hover:bg-white/10 transition-colors"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              aria-label="Toggle menu"
+              aria-label="Alternar menú"
             >
               {mobileMenuOpen ? (
                 <X className="w-6 h-6" style={{ color: "#F4F4F5" }} />
@@ -317,7 +317,7 @@ export default function Home() {
                 transitionDelay: mobileMenuOpen ? `${navLinks.length * 60}ms` : "0ms",
               }}
             >
-              Get Started
+              Comenzar
             </a>
           </div>
         </div>
@@ -340,7 +340,7 @@ export default function Home() {
             style={{ backgroundColor: "rgba(99, 102, 241, 0.15)", color: "#6366F1" }}
           >
             <Zap className="w-4 h-4" />
-            <span>Introducing NexaFlow 2.0</span>
+            <span>Presentamos NexaFlow 2.0</span>
           </div>
 
           {/* Headline */}
@@ -348,9 +348,9 @@ export default function Home() {
             className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight"
             style={{ fontFamily: "Space Grotesk, sans-serif", color: "#F4F4F5" }}
           >
-            Automate Your Workflows
+            Automatiza Tus Flujos de Trabajo
             <br />
-            <span style={{ color: "#6366F1" }}>With AI Intelligence</span>
+            <span style={{ color: "#6366F1" }}>Con Inteligencia Artificial</span>
           </h1>
 
           {/* Subtitle */}
@@ -358,7 +358,7 @@ export default function Home() {
             className="text-lg sm:text-xl max-w-2xl mx-auto mb-10"
             style={{ color: "#71717A" }}
           >
-            Build powerful automations in minutes with our no-code visual builder. Connect 200+ apps, leverage AI, and scale your operations effortlessly.
+            Crea automatizaciones potentes en minutos con nuestro constructor visual sin código. Conecta más de 200 aplicaciones, aprovecha la IA y escala tus operaciones sin esfuerzo.
           </p>
 
           {/* CTA Buttons */}
@@ -368,7 +368,7 @@ export default function Home() {
               className="w-full sm:w-auto px-8 py-4 text-base font-semibold rounded-lg transition-all hover:opacity-90 flex items-center justify-center gap-2"
               style={{ backgroundColor: "#6366F1", color: "#F4F4F5" }}
             >
-              Start Free Trial
+              Iniciar Prueba Gratis
               <ArrowRight className="w-5 h-5" />
             </a>
             <a
@@ -376,7 +376,7 @@ export default function Home() {
               className="w-full sm:w-auto px-8 py-4 text-base font-semibold rounded-lg border transition-all hover:bg-white/5 flex items-center justify-center gap-2"
               style={{ borderColor: "rgba(255, 255, 255, 0.2)", color: "#F4F4F5" }}
             >
-              See How It Works
+              Ver Cómo Funciona
             </a>
           </div>
 
@@ -388,7 +388,7 @@ export default function Home() {
             >
               <Image
                 src="/images/hero.png"
-                alt="NexaFlow workflow automation dashboard"
+                alt="Panel de automatización de flujos de trabajo NexaFlow"
                 width={1200}
                 height={675}
                 className="w-full h-auto"
@@ -432,10 +432,10 @@ export default function Home() {
               className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4"
               style={{ fontFamily: "Space Grotesk, sans-serif", color: "#F4F4F5" }}
             >
-              Everything You Need to Automate
+              Todo lo que Necesitas para Automatizar
             </h2>
             <p className="text-lg max-w-2xl mx-auto" style={{ color: "#71717A" }}>
-              Powerful features designed to help you build, deploy, and scale workflows across your entire organization.
+              Características potentes diseñadas para ayudarte a construir, implementar y escalar flujos de trabajo en toda tu organización.
             </p>
           </div>
 
@@ -463,7 +463,7 @@ export default function Home() {
                 <div className="relative rounded-xl overflow-hidden border" style={{ borderColor: "rgba(255, 255, 255, 0.1)" }}>
                   <Image
                     src="/images/feature.png"
-                    alt="AI workflow automation interface"
+                    alt="Interfaz de automatización de flujos de trabajo con IA"
                     width={600}
                     height={300}
                     className="w-full h-auto"
@@ -511,10 +511,10 @@ export default function Home() {
               className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4"
               style={{ fontFamily: "Space Grotesk, sans-serif", color: "#F4F4F5" }}
             >
-              Solutions for Every Team
+              Soluciones para Cada Equipo
             </h2>
             <p className="text-lg max-w-2xl mx-auto" style={{ color: "#71717A" }}>
-              Purpose built automations to transform how your teams work across sales, marketing, customer success, and IT.
+              Automatizaciones diseñadas específicamente para transformar cómo trabajan tus equipos en ventas, marketing, éxito del cliente y TI.
             </p>
           </div>
 
@@ -553,10 +553,10 @@ export default function Home() {
               className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4"
               style={{ fontFamily: "Space Grotesk, sans-serif", color: "#F4F4F5" }}
             >
-              The NexaFlow Platform
+              La Plataforma NexaFlow
             </h2>
             <p className="text-lg max-w-2xl mx-auto" style={{ color: "#71717A" }}>
-              Three powerful products that work together to give you complete control over your automation infrastructure.
+              Tres productos potentes que trabajan juntos para darte control completo sobre tu infraestructura de automatización.
             </p>
           </div>
 
@@ -598,10 +598,10 @@ export default function Home() {
               className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4"
               style={{ fontFamily: "Space Grotesk, sans-serif", color: "#F4F4F5" }}
             >
-              Simple, Transparent Pricing
+              Precios Simples y Transparentes
             </h2>
             <p className="text-lg max-w-2xl mx-auto" style={{ color: "#71717A" }}>
-              Start free and scale as you grow. No hidden fees, no surprises.
+              Comienza gratis y escala a medida que creces. Sin tarifas ocultas, sin sorpresas.
             </p>
           </div>
 
@@ -620,7 +620,7 @@ export default function Home() {
                     className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full text-xs font-semibold"
                     style={{ backgroundColor: "#F4F4F5", color: "#0A0A0F" }}
                   >
-                    Most Popular
+                    Más Popular
                   </div>
                 )}
                 <h3
@@ -686,10 +686,10 @@ export default function Home() {
               className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4"
               style={{ fontFamily: "Space Grotesk, sans-serif", color: "#F4F4F5" }}
             >
-              Loved by Teams Worldwide
+              Amado por Equipos en Todo el Mundo
             </h2>
             <p className="text-lg max-w-2xl mx-auto" style={{ color: "#71717A" }}>
-              See what industry leaders are saying about NexaFlow.
+              Mira lo que dicen los líderes de la industria sobre NexaFlow.
             </p>
           </div>
 
@@ -744,7 +744,7 @@ export default function Home() {
                   style={{
                     backgroundColor: carouselIndex === index ? "#6366F1" : "rgba(255, 255, 255, 0.2)",
                   }}
-                  aria-label={`Go to testimonial ${index + 1}`}
+                  aria-label={`Ir al testimonio ${index + 1}`}
                 />
               ))}
             </div>
@@ -760,10 +760,10 @@ export default function Home() {
               className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4"
               style={{ fontFamily: "Space Grotesk, sans-serif", color: "#F4F4F5" }}
             >
-              Frequently Asked Questions
+              Preguntas Frecuentes
             </h2>
             <p className="text-lg" style={{ color: "#71717A" }}>
-              Got questions? We have answers.
+              ¿Tienes preguntas? Tenemos respuestas.
             </p>
           </div>
 
@@ -820,10 +820,10 @@ export default function Home() {
                 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6"
                 style={{ fontFamily: "Space Grotesk, sans-serif", color: "#F4F4F5" }}
               >
-                Ready to Transform Your Workflows?
+                ¿Listo para Transformar Tus Flujos de Trabajo?
               </h2>
               <p className="text-lg mb-10 max-w-2xl mx-auto" style={{ color: "rgba(255, 255, 255, 0.8)" }}>
-                Join thousands of teams who have automated their operations with NexaFlow. Start your free trial today.
+                Únete a miles de equipos que han automatizado sus operaciones con NexaFlow. Comienza tu prueba gratuita hoy.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
@@ -831,7 +831,7 @@ export default function Home() {
                   className="w-full sm:w-auto px-8 py-4 text-base font-semibold rounded-lg transition-all hover:opacity-90 flex items-center justify-center gap-2"
                   style={{ backgroundColor: "#F4F4F5", color: "#0A0A0F" }}
                 >
-                  Start Free Trial
+                  Iniciar Prueba Gratis
                   <ArrowRight className="w-5 h-5" />
                 </a>
                 <a
@@ -839,7 +839,7 @@ export default function Home() {
                   className="w-full sm:w-auto px-8 py-4 text-base font-semibold rounded-lg border transition-all hover:bg-white/10 flex items-center justify-center"
                   style={{ borderColor: "rgba(255, 255, 255, 0.3)", color: "#F4F4F5" }}
                 >
-                  Talk to Sales
+                  Hablar con Ventas
                 </a>
               </div>
             </div>
@@ -867,28 +867,28 @@ export default function Home() {
                 </span>
               </a>
               <p className="text-sm mb-4" style={{ color: "#71717A" }}>
-                Automate your business workflows with AI powered integrations and no code builder.
+                Automatiza los flujos de trabajo de tu negocio con integraciones impulsadas por IA y constructor sin código.
               </p>
             </div>
 
             <div>
               <h4 className="font-semibold mb-4" style={{ color: "#F4F4F5" }}>
-                Product
+                Producto
               </h4>
               <ul className="space-y-3">
                 <li>
                   <a href="#features" className="text-sm hover:text-white transition-colors" style={{ color: "#71717A" }}>
-                    Features
+                    Características
                   </a>
                 </li>
                 <li>
                   <a href="#pricing" className="text-sm hover:text-white transition-colors" style={{ color: "#71717A" }}>
-                    Pricing
+                    Precios
                   </a>
                 </li>
                 <li>
                   <a href="#services" className="text-sm hover:text-white transition-colors" style={{ color: "#71717A" }}>
-                    Solutions
+                    Soluciones
                   </a>
                 </li>
               </ul>
@@ -896,7 +896,7 @@ export default function Home() {
 
             <div>
               <h4 className="font-semibold mb-4" style={{ color: "#F4F4F5" }}>
-                Resources
+                Recursos
               </h4>
               <ul className="space-y-3">
                 <li>
@@ -909,7 +909,7 @@ export default function Home() {
 
             <div>
               <h4 className="font-semibold mb-4" style={{ color: "#F4F4F5" }}>
-                Contact
+                Contacto
               </h4>
               <ul className="space-y-3">
                 <li>
@@ -939,14 +939,14 @@ export default function Home() {
             style={{ borderColor: "rgba(255, 255, 255, 0.1)" }}
           >
             <p className="text-sm" style={{ color: "#71717A" }}>
-              &copy; {new Date().getFullYear()} NexaFlow. All rights reserved.
+              &copy; {new Date().getFullYear()} NexaFlow. Todos los derechos reservados.
             </p>
             <div className="flex items-center gap-6">
               <a href="#" className="text-sm hover:text-white transition-colors" style={{ color: "#71717A" }}>
-                Privacy Policy
+                Política de Privacidad
               </a>
               <a href="#" className="text-sm hover:text-white transition-colors" style={{ color: "#71717A" }}>
-                Terms of Service
+                Términos de Servicio
               </a>
             </div>
           </div>
