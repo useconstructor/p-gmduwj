@@ -171,7 +171,7 @@ const pricingPlans = [
 
 const testimonials = [
   {
-    quote: "NexaFlow transformó la forma en que manejamos la incorporación de clientes. Lo que antes tomaba horas ahora sucede automáticamente en minutos.",
+    quote: "FlowStack transformó la forma en que manejamos la incorporación de clientes. Lo que antes tomaba horas ahora sucede automáticamente en minutos.",
     name: "Director de Operaciones",
     company: "Startup en Crecimiento",
     initials: "DO",
@@ -192,19 +192,19 @@ const testimonials = [
 
 const faqs = [
   {
-    question: "¿Qué tan rápido puedo comenzar con NexaFlow?",
+    question: "¿Qué tan rápido puedo comenzar con FlowStack?",
     answer: "Puedes registrarte y crear tu primer flujo de trabajo en menos de 5 minutos. Nuestro constructor intuitivo de arrastrar y soltar no requiere conocimientos técnicos, y ofrecemos cientos de plantillas para ayudarte a comenzar de inmediato.",
   },
   {
-    question: "¿Qué integraciones soporta NexaFlow?",
-    answer: "NexaFlow se conecta con más de 200 herramientas empresariales populares incluyendo Salesforce, HubSpot, Slack, Microsoft 365, Google Workspace, Jira, Zendesk y muchas más. También soportamos webhooks personalizados y APIs REST para conectar con cualquier sistema.",
+    question: "¿Qué integraciones soporta FlowStack?",
+    answer: "FlowStack se conecta con más de 200 herramientas empresariales populares incluyendo Salesforce, HubSpot, Slack, Microsoft 365, Google Workspace, Jira, Zendesk y muchas más. También soportamos webhooks personalizados y APIs REST para conectar con cualquier sistema.",
   },
   {
-    question: "¿Mis datos están seguros con NexaFlow?",
+    question: "¿Mis datos están seguros con FlowStack?",
     answer: "Absolutamente. Utilizamos cifrado de nivel empresarial para todos los datos en tránsito y en reposo. Nuestra plataforma cuenta con certificación SOC 2 Tipo II, cumple con GDPR, y ofrecemos controles de acceso basados en roles para asegurar que solo los miembros autorizados del equipo puedan acceder a flujos de trabajo sensibles.",
   },
   {
-    question: "¿Puedo probar NexaFlow antes de comprometerme?",
+    question: "¿Puedo probar FlowStack antes de comprometerme?",
     answer: "¡Sí! Nuestro plan Inicial es completamente gratis con hasta 500 tareas por mes. Para las características Profesionales, ofrecemos una prueba gratuita de 14 días con acceso completo a todas las capacidades. No se requiere tarjeta de crédito para comenzar.",
   },
   {
@@ -229,7 +229,7 @@ export default function Home() {
                 <Zap className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold" style={{ fontFamily: "Space Grotesk, sans-serif", color: "#F4F4F5" }}>
-                NexaFlow
+                FlowStack
               </span>
             </a>
 
@@ -340,7 +340,7 @@ export default function Home() {
             style={{ backgroundColor: "rgba(99, 102, 241, 0.15)", color: "#6366F1" }}
           >
             <Zap className="w-4 h-4" />
-            <span>Presentamos NexaFlow 2.0</span>
+            <span>Presentamos FlowStack 2.0</span>
           </div>
 
           {/* Headline */}
@@ -388,7 +388,7 @@ export default function Home() {
             >
               <Image
                 src="/images/hero.png"
-                alt="Panel de automatización de flujos de trabajo NexaFlow"
+                alt="Panel de automatización de flujos de trabajo FlowStack"
                 width={1200}
                 height={675}
                 className="w-full h-auto"
@@ -553,7 +553,7 @@ export default function Home() {
               className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4"
               style={{ fontFamily: "Space Grotesk, sans-serif", color: "#F4F4F5" }}
             >
-              La Plataforma NexaFlow
+              La Plataforma FlowStack
             </h2>
             <p className="text-lg max-w-2xl mx-auto" style={{ color: "#71717A" }}>
               Tres productos potentes que trabajan juntos para darte control completo sobre tu infraestructura de automatización.
@@ -663,7 +663,7 @@ export default function Home() {
                   ))}
                 </ul>
                 <a
-                  href={plan.name === "Enterprise" ? "mailto:sales@nexaflow.io" : "#pricing"}
+                  href={plan.name === "Enterprise" ? "mailto:sales@flowstack.io" : "#pricing"}
                   className="block w-full py-3 text-center font-semibold rounded-lg transition-all"
                   style={{
                     backgroundColor: plan.highlighted ? "#F4F4F5" : "rgba(99, 102, 241, 0.15)",
@@ -689,7 +689,7 @@ export default function Home() {
               Amado por Equipos en Todo el Mundo
             </h2>
             <p className="text-lg max-w-2xl mx-auto" style={{ color: "#71717A" }}>
-              Mira lo que dicen los líderes de la industria sobre NexaFlow.
+              Mira lo que dicen los líderes de la industria sobre FlowStack.
             </p>
           </div>
 
@@ -823,7 +823,7 @@ export default function Home() {
                 ¿Listo para Transformar Tus Flujos de Trabajo?
               </h2>
               <p className="text-lg mb-10 max-w-2xl mx-auto" style={{ color: "rgba(255, 255, 255, 0.8)" }}>
-                Únete a miles de equipos que han automatizado sus operaciones con NexaFlow. Comienza tu prueba gratuita hoy.
+                Únete a miles de equipos que han automatizado sus operaciones con FlowStack. Comienza tu prueba gratuita hoy.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
@@ -835,7 +835,7 @@ export default function Home() {
                   <ArrowRight className="w-5 h-5" />
                 </a>
                 <a
-                  href="mailto:sales@nexaflow.io"
+                  href="mailto:sales@flowstack.io"
                   className="w-full sm:w-auto px-8 py-4 text-base font-semibold rounded-lg border transition-all hover:bg-white/10 flex items-center justify-center"
                   style={{ borderColor: "rgba(255, 255, 255, 0.3)", color: "#F4F4F5" }}
                 >
@@ -863,7 +863,7 @@ export default function Home() {
                   className="text-xl font-bold"
                   style={{ fontFamily: "Space Grotesk, sans-serif", color: "#F4F4F5" }}
                 >
-                  NexaFlow
+                  FlowStack
                 </span>
               </a>
               <p className="text-sm mb-4" style={{ color: "#71717A" }}>
@@ -914,20 +914,20 @@ export default function Home() {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="mailto:hello@nexaflow.io"
+                    href="mailto:hello@flowstack.io"
                     className="text-sm hover:text-white transition-colors"
                     style={{ color: "#71717A" }}
                   >
-                    hello@nexaflow.io
+                    hello@flowstack.io
                   </a>
                 </li>
                 <li>
                   <a
-                    href="mailto:sales@nexaflow.io"
+                    href="mailto:sales@flowstack.io"
                     className="text-sm hover:text-white transition-colors"
                     style={{ color: "#71717A" }}
                   >
-                    sales@nexaflow.io
+                    sales@flowstack.io
                   </a>
                 </li>
               </ul>
@@ -939,7 +939,7 @@ export default function Home() {
             style={{ borderColor: "rgba(255, 255, 255, 0.1)" }}
           >
             <p className="text-sm" style={{ color: "#71717A" }}>
-              &copy; {new Date().getFullYear()} NexaFlow. Todos los derechos reservados.
+              &copy; {new Date().getFullYear()} FlowStack. Todos los derechos reservados.
             </p>
             <div className="flex items-center gap-6">
               <a href="#" className="text-sm hover:text-white transition-colors" style={{ color: "#71717A" }}>

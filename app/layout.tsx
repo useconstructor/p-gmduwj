@@ -13,7 +13,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "NexaFlow | Automatización de Flujos de Trabajo con IA",
+  title: "FlowStack | Automatización de Flujos de Trabajo con IA",
   description: "Automatiza los flujos de trabajo de tu negocio con integraciones impulsadas por IA, constructor sin código y panel de análisis en tiempo real.",
 };
 
